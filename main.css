@@ -1,0 +1,82 @@
+body {
+  background-color: #FFFFFF;
+margin: 0;
+padding: 0;
+}
+h1 {
+  font-family: 'Ranchers', cursive;
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+}
+p {
+  font-size: 36px;
+  color: #FFFFFF;
+  margin-left: 50px;
+  background-color: #0000007f;
+}
+form {
+  margin: 0 50px;
+  padding: 10px 50px 10px 0;
+}
+ul#menu {
+  text-align: justify;
+  width: 100%;
+}
+ul#menu li{
+  display: inline;
+  padding: 0 0 0 100px;
+  list-style: none;
+}
+ul#project-list li{
+  font-size: 24px;
+  font-weight: bold;
+  list-style: none;
+}
+#heading, #footing {
+  background-color: #DC143C;
+  font-family: 'Ranchers', cursive;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#heading {
+  position: fixed;
+}
+#footing {
+  text-align: center;
+}
+#about-me {
+  background-position: center;
+  background-image: url(pictures/desktop.jpeg);
+  background-repeat: no-repeat;
+  background-size: 22%;
+  padding: 100px 0 0 0;
+}
+#submitting {
+  padding: 0 0 25px 0;
+}
+#footing-image {
+  height: 2.5%;
+  padding: 10px 100px;
+  width: 2.5%;
+}
+#copyright {
+  background-color: #DC143C;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.container {
+  display: inline-block;
+  height: 500px;
+  width: 500px;
+}
+.container img {
+  height: auto;
+  margin: 20px;
+  padding: 25px 25px 0 0;
+  width: 100%;
+}
+.container img:hover {
+  opacity: 90%;
+}
